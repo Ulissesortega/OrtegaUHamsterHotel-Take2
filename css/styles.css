@@ -2,21 +2,24 @@
 
 /* Navbar */
 .navbarBG,a {
-    background-color: #000324;
-    color: white;
+    background-color: #000324;    
     height: 120px;
-    text-decoration: none;
+    text-decoration: none;    
+    
 }
 
-li {
+ul,li {
     font-family: 'Dosis','Regular';
     font: normal normal normal 20px/26px Dosis;
     list-style-type: none;
     display: inline-block;
     padding: 15px;
-    margin-top: 65px;  
+    margin-top: 65px;    
+    color: white;    
 }
 
+
+/* hero image */
 .hero-image {
     background-image: url(../assets/header.jpg);
     background-position: center;
