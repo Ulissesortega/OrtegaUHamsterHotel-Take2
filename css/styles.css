@@ -1,27 +1,76 @@
-body,
-html {
-    height: 100%;
-    margin: 0;
-}
+@import url('https://fonts.googleapis.com/css2?family=Dosis&display=swap');
 
-.nvbg {
+/* Navbar */
+.navbarBG,a {
     background-color: #000324;
     color: white;
-    display: flex;
-    justify-content: center;
     height: 120px;
+    text-decoration: none;
 }
 
-.toppad {
-    padding-top: 85px;
+li {
+    font-family: 'Dosis','Regular';
+    font: normal normal normal 20px/26px Dosis;
+    list-style-type: none;
+    display: inline-block;
+    padding: 15px;
+    margin-top: 65px;  
 }
-
 
 .hero-image {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("photographer.jpg");
-    height: 50%;
+    background-image: url(../assets/header.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+    height: 400px;
+}
+
+/* Welcome Section */
+.fonttitle {
+    text-align: left;
+    font: normal normal normal 35px/44px Dosis;
+    letter-spacing: 0px;
+    color: #1A1B26;
+    opacity: 1;
+}
+
+.fonttext {
+    text-align: left;
+    font: normal normal normal 16px/20px Source Sans Pro;
+    letter-spacing: 0px;
+    color: #1A1B26;
+    opacity: 1;
+}
+
+.imgpadding{
+    padding: 15px;
+}
+
+/* Our Rooms */
+.Background1 {
+    background-image: url(../assets/bg2.jpg);
+}
+
+.titletext1{
+    font-family: 'Dosis', sans-serif;
+    text-align: center;
+    font: normal normal normal 35px/44px Dosis;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+/* Packages */
+
+.packtf{
+    font-family: 'Dosis', sans-serif;
+}
+
+
+/* Footer */
+.footerformat{
+    background-color: #000324;
+    color: white;
+    text-align: center;
 }
